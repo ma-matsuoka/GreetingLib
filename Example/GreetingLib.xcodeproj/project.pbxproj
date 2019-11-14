@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0510180BEE0B66A992E14EB6 /* Pods-GreetingLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreetingLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-GreetingLib_Example/Pods-GreetingLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1BD5A65DF460AAB5FD45FABD /* GreetingLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GreetingLib.podspec; path = ../GreetingLib.podspec; sourceTree = "<group>"; };
+		1BD5A65DF460AAB5FD45FABD /* GreetingLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GreetingLib.podspec; path = ../GreetingLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2E9776AE59218805EE83F399 /* Pods-GreetingLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreetingLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-GreetingLib_Tests/Pods-GreetingLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4532A021D66361825B3FEE75 /* Pods_GreetingLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreetingLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GreetingLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9BF345295D7D5D9A85DF3FC4 /* Pods_GreetingLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreetingLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B62EAB17FD9B5C4655B6E0 /* Pods-GreetingLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreetingLib_Example.release.xcconfig"; path = "Target Support Files/Pods-GreetingLib_Example/Pods-GreetingLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BB5EC8303E2B48AE046C9F3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D7D27349BA3F1011EF1C1713 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BB5EC8303E2B48AE046C9F3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D7D27349BA3F1011EF1C1713 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E201FE3C663A3000E9579E98 /* Pods-GreetingLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreetingLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GreetingLib_Tests/Pods-GreetingLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				E201FE3C663A3000E9579E98 /* Pods-GreetingLib_Tests.debug.xcconfig */,
 				2E9776AE59218805EE83F399 /* Pods-GreetingLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RRMM77H4DW;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RRMM77H4DW;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -507,6 +509,7 @@
 			baseConfigurationReference = 0510180BEE0B66A992E14EB6 /* Pods-GreetingLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RRMM77H4DW;
 				INFOPLIST_FILE = GreetingLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -522,6 +525,7 @@
 			baseConfigurationReference = A3B62EAB17FD9B5C4655B6E0 /* Pods-GreetingLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RRMM77H4DW;
 				INFOPLIST_FILE = GreetingLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -536,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E201FE3C663A3000E9579E98 /* Pods-GreetingLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = RRMM77H4DW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -558,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E9776AE59218805EE83F399 /* Pods-GreetingLib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4D9XM2NQD7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
