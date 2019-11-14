@@ -2,7 +2,8 @@ public class Cat {
 
   public init() {}
 
-  public func say() {
-      print("Nyaa");
+  public func say() -> String {
+      print("Nyaa")
+      return "Nyaa"
   }
 }
