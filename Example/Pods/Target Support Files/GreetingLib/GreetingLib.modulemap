@@ -1,0 +1,6 @@
+framework module GreetingLib {
+  umbrella header "GreetingLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
